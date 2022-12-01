@@ -1,0 +1,28 @@
+﻿<Window x:Class="Lab2_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2_WPF"
+        mc:Ignorable="d"
+        Title="Kalkulator" Height="505" Width="373" 
+        ResizeMode="NoResize">
+    <Grid>
+        <TextBlock x:Name="WYNIK" HorizontalAlignment="Left" Margin="12,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="64" Width="333" FontSize="48" TextAlignment="Right"><Run Language="pl-pl" Text="0"/></TextBlock>
+        <Button Content="9" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="95,120,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="180,120,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="95,205,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="265,120,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="95,290,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="180,290,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="x" HorizontalAlignment="Left" Margin="265,205,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="95,375,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="10,290,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="180,205,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="265,290,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="265,375,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="180,375,0,0" VerticalAlignment="Top" Height="80" Width="80" FontSize="24" FontWeight="Bold"/>
+    </Grid>
+</Window>
